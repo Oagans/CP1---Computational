@@ -22,3 +22,5 @@ JS para que isso fosse possível e adicionamos o código dessa função secundá
 
 Em relação à contribuição de cada um ao projeto, tanto eu, quanto o Lucas, desenvolvemos o projeto por um inteiro. Teoricamente ele (Lucas) ficou encarregado mais com a parte do JS e eu com a estruturação do HTML 
 e CSS,  mas nós nos ajudamos durante o projeto inteiro idealizando ele conjuntamente, e só resolvemos fazer essa "separação" de campos para que os commits fossem feitos com maior facilidade! 
+
+Integrantes: Matheus Nagao Shimoda (RM554602) e Lucas Ribeiro De Marco (RM554902).
