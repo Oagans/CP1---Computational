@@ -2,6 +2,8 @@ const botao = document.getElementById('meuBotao');
 const resultado = document.getElementById('resultado');
 
 
+resultado.style.display = "none"
+
 function buscarDados() {
 
     const url = 'https://jsonplaceholder.typicode.com/posts/1';
@@ -16,16 +18,16 @@ function buscarDados() {
             console.error('Erro ao buscar dados:', error);
             resultado.textContent = 'Ocorreu um erro ao buscar os dados.';
         });
-}
 
+    
 
-function fecharDiv() {
-    var div = document.getElementById("resultado");
-    if (div.style.display === "none") {
-        div.style.display = "block";
+    if (resultado.style.display === "none") {
+        resultado.style.display = "block";
     } else {
-        div.style.display = "none";
+        resultado.style.display = "none";
     }
+    
+    resultado.style.backgroundColor = "rgba(255, 255, 255, 0.151)"
 }
 
 botao.addEventListener('click', buscarDados);
