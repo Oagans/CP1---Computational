@@ -19,4 +19,13 @@ function buscarDados() {
 }
 
 
+function fecharDiv() {
+    var div = document.getElementById("resultado");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+
 botao.addEventListener('click', buscarDados);
