@@ -14,10 +14,6 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-h1 {
-    text-align: center;
-    font-weight: 500;
-}
 
 button {
     height: fit-content;
@@ -48,10 +44,15 @@ button:hover {
 }
 
 #resultado {
-    color: #FFF;
+    color: #00000099;
     font-size: 1.5rem;
-    background-color:rgba(255, 255, 255, 0.151); 
+    background-color: transparent; 
     border-radius: 0.5rem;
     padding: 1rem;
     margin: 2rem;
+    transition: 0.5s;
+}
+
+#resultado:hover {
+    color: #FFF;
 }
